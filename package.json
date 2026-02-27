@@ -1,0 +1,27 @@
+{
+  "name": "eksamensvakt",
+  "version": "1.0.0",
+  "description": "Teacher Schedule Parser - Extract teacher schedules from Excel files",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "teacher",
+    "schedule",
+    "excel",
+    "parser"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "jspdf": "^4.2.0",
+    "jspdf-autotable": "^5.0.7",
+    "multer": "^2.1.0",
+    "xlsx": "^0.18.5"
+  }
+}
